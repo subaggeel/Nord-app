@@ -1,0 +1,198 @@
+.App {
+  text-align: center;
+
+}
+.App-header h1{
+  margin-left: 150px;
+  margin-top: 4px;
+}
+.formheader {
+  width: 100%;
+
+  background-color: lightgrey;
+margin-left: 32px;
+  display: inline-flex;
+  flex-direction: row;
+
+}
+table, td, th {
+    border-bottom: 1px solid lightgrey;
+    padding:6px;
+    color:#757575;
+    border:collapse;
+
+
+}
+th{
+  font-size:16px;
+  line-height: 16px;
+  font-weight: 500;
+  color:#757575;
+  line-height: 16px;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+td{
+  width:30%;
+
+  font-weight: 500;
+  line-height: 14px;
+  background-color: white;
+  height:15px;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+
+}
+.header{
+  margin-top: 100px;
+  width:912px;
+  overflow:auto;
+  align-content: center;
+}
+#test{
+  width:60px;
+  height:60px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-y:auto;
+    margin-top: 10px;
+    margin-left: 18px;
+    background-color: white;
+}
+@media only screen and (min-width: 500px) {
+    .MediaQuery-mobile{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .MediaQuery-desktop{
+        display: none;
+    }
+}
+tr:hover {}
+th {
+
+    color: #757575;
+    height: 48px;
+}
+#container{
+  display: block;
+  margin-top: 16opx;
+}
+#content{
+  width:912px;
+  height:100%;
+
+  margin-left:32px;
+
+}
+
+#in{
+  height:24px;
+  width:24px;
+}
+#tab{
+  width:912px;
+  height:auto;
+  overflow-x:auto;
+}
+.todoListMain .header input {
+      padding: 16px 20px;
+      margin: 8px 0;
+      margin-left: 16px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+.todoListMain .header input:focus{
+  border:2px solid lightblue;
+}
+.todoListMain .header button {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #323233;
+  color: #FFF;
+  border: 2px solid #323233;
+}
+#but{
+
+  height:24px;
+  width:24px;
+  font-size: 10px;
+  background-color: #909090;
+  color: #FFF;
+  border: 2px solid #909090;
+
+}
+.todoListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+
+}
+.header{
+  margin-left:40px;
+}
+header h2{
+  margin-left: 32px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  color:white;
+}
+#header{
+  width:912px;
+  height:250px;
+  background:lightgrey;
+  margin-bottom:10px;
+}
+#flex1 {
+flex: 1 1 auto;
+
+}
+
+ tr input:button{
+  display:inline;
+
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+#divi{
+  width:200px;
+  height:200px;
+}
+ h1{
+  padding:0px;
+  margin-top: 0px;
+
+}
+.App-header {
+  background-color: #222;
+  height: auto;
+  padding: 3px;
+  color: white;
+  margin-bottom: 20px;
+
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

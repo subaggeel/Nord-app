@@ -1,0 +1,20 @@
+import React, { PropTypes } from 'react'
+import './app.css';
+
+const MediaQuery = ( { size }) => {
+    return (
+        <div className={`MediaQuery-${size}`}>
+            { this.props.children }
+        </div>
+    )
+);
+
+MediaQuery.defaultProps = {
+    size: 'mobile'
+}
+
+MediaQuery.propTypes = {
+    size: React.PropTypes.oneOf(['mobile', 'desktop'])
+}
+
+export default MediaQuery;
